@@ -1,0 +1,281 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+
+@media (max-width: 1200px) {
+
+ul#menu li {
+	margin-left:20px;
+}
+
+ul#menu li a {
+  font-size: 13px;
+}
+
+.search-bar {
+  width: 300px !important;
+  margin-left: 30px;
+}
+
+.subscribe-input {
+	width:480px;
+}
+
+.explore-sidebar {
+	width: 225px;
+}
+
+
+.featured-info p {font-size: 13px;}
+.featured-info .smaller-p {font-size: 11px}
+.featured-info .smallest-text {font-size: 11px;}
+
+.testi-wrapper {
+	width: 780px;
+}
+
+}
+
+
+@media (max-width: 991px) {
+
+header {
+  padding:0 30px;
+}
+
+ul#menu {
+  display: none;
+}
+
+.login-btn {
+	display: none;
+}
+  
+.collectors-col {
+	width:25%;
+}
+
+.collectors-profile {
+	height:172.5px;
+}
+
+.community-col {
+	width:25%;
+}
+
+.community-profile {
+	height:172.5px;
+}
+
+.subscribe-input {
+	width:320px;
+}
+
+.explore-sidebar {
+	width: 210px;
+}
+
+.signup-how h1 {font-size: 32px;}
+
+.testi-wrapper {
+	width: 100%;
+}
+
+.flex-direction-nav .flex-next {
+    right: -30px;
+}
+
+.flex-direction-nav .flex-prev {
+    left: -30px;
+}
+
+}
+
+@media (max-width: 768px) {
+
+
+body {font-size:13px;}
+h1 {font-size:32px;}
+h2 {font-size:24px;}
+h3 {font-size:16px;}
+h4 {font-size:12px;}
+
+#logo {
+  width: 90px;
+  height: 38px;
+}
+
+header {
+  height: 70px;
+  padding: 0 15px;
+}
+
+.search-bar {
+  margin-top: 15px;
+}
+
+.login-btn {
+  display: none;
+}
+
+nav #menuToggle {
+  top: 15px;
+}
+
+.main-title {
+	width:100%;
+}
+
+.marketplace-col {
+	width:33.333%;
+}
+
+.collectors-col {
+	width:33.333%;
+}
+
+.collectors-profile {
+	height:170px;
+}
+
+.community-col {
+	width:33.333%;
+}
+
+.community-profile {
+	height:170px;
+}
+
+.copyright-sec {
+	text-align: center;
+}
+
+.copyright {
+	float:none;
+}
+
+.terms-privacy {
+	float:none;
+  margin-bottom: 15px;
+}
+
+.explore-section {padding-top: 135px;}
+
+.explore-sidebar {
+	display: none;
+}
+
+.explore-search {
+	display: none;
+}
+
+.explore-search-m {display: block;}
+
+.header-top {display: block;}
+
+.trading-table {
+	font-size: 11px;
+}
+
+.trading-table .small-profile-img {display: none;}
+
+.trading-table .small-profile-name {
+	margin-left: 5px;
+	font-size: 11px;
+}
+
+.testi-wrapper {
+	padding:30px;
+	padding-bottom: 70px;
+}
+
+}
+
+
+@media (max-width: 576px) {	
+
+.marketplace-col {
+  width:50%;
+  padding:10px;
+}
+
+.collectors-col {
+	width:50%;
+}
+
+.collectors-profile {
+	height:235px;
+}
+
+.community-col {
+	width:50%;
+}
+
+.community-profile {
+	height:235px;
+}
+
+.top-footer {
+	padding-top: 90px;
+}
+
+.subscribe-input {
+	width:70%;
+}
+
+.signup-btn {
+	min-width:30%;
+}
+
+.search-m-link {display: block !important;}
+
+.search-m {display: block;}
+
+.search-bar {
+	display: none;
+}
+
+
+.lounge-snippet-info {
+	width:80%;
+}
+
+.lounge-snippet-stats {
+	width: 20%;
+}
+
+.flex-direction-nav .flex-next, .flex-direction-nav .flex-prev {
+    display: none;
+}
+
+.flexslider .flex-control-nav {
+	bottom: 20px;
+}
+
+.flex-control-paging li a {
+	display:block;
+    cursor: pointer;
+    text-indent: -9999px;
+    margin: 0 8px;
+	position:relative;
+    width:11px;
+	height: 11px;
+	background: #fff;
+    z-index:900;
+    border: 1px solid #707070;
+    border-radius: 6px;
+}
+
+ul.lounge-links li {
+    margin-right: 10px;
+}
+
+ul.lounge-links li a {
+    font-size: 11px;
+	letter-spacing: 1px;
+}
+
+
+}
+
